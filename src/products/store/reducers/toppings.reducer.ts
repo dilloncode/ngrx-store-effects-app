@@ -44,7 +44,8 @@ export function reducer(
             ...entities,
             [topping.id]: topping
           }
-        }
+        }, 
+        {}
       );
 
       return {
